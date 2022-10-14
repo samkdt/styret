@@ -66,7 +66,7 @@ text-align: center;
 <div class="meny">
 
   <div class="rad">
-<p><a href="./flaskpost/">Flaskposten</a></p>
+<p><a href="./flaskpost/">Flaskposten äta bajs är inte helt fel</a></p>
 <p><a href="./foreningar/">Föreningar</a></p>
   </div>
   <div class="rad">
