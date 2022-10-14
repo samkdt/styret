@@ -4,72 +4,33 @@
 <meta charset="UTF-8">
 <title>Sjösektionen Chalmers</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../tema.css" />
 <style>
-body{
-    position: relative;
-    color: white;
-    font-size:1.6em;
+.context{
+display:grid;
+grid-template-columns: 16% 84%;
+}
+.logotyp{ 
+	grid-column: 1/1;
+	width: 100%;
 }
 
-.logotyp{
-    background: #003374;
-    width: 16%;
-    float:left;
-
-}
-
-.context{ 
-    background-color: #003374;
-    padding:2%;
-    min-height:90vh;
-}
-
-.meny{
-    display: block;
-    text-align:center;
-    margin: 0 auto;
-    width: 100%;
-}
-
-.meny p{
- display: inline-block;
- text-align: center;
- border-color: #FFF0;
- border-style: solid;
- padding: 1.61803%;
-}
-
-.meny a{
-    color:white;
-    padding:1em;
-}
-
-.meny p:hover{
-    border-color: #FFFF;
-}
-.rad{
-    display:inline-block;
+.posten{
+text-align:center;
 }
 
 .pdf{
-  width: 66%;
+  width: 100%;
   aspect-ratio: 1/1.414;
-}
-
-.fot p{
-margin: 0 auto;
-width: 50%;
-font-size: 20;
-text-align: center;
 }
 
 </style>
 </head>
 <body>
-<a href=".."><p style="margin-bottom: 0;width: 100%;">⇐ Tillbaka</p></a>
+<a class="bak" href=".."><p>⇐ Tillbaka</p></a>
 <div class="context">
-<a> <img class="logotyp" src="../Sjosektionenlogo.svg" alt="Sjösectionen chalmesrs loga">
-<div class="meny">
+<img class="logotyp" src="../Sjosektionenlogo.svg" alt="Sjösectionen chalmesrs loga">
+<div class="posten">
 <p><a href="./foreningar/">Få Flaskposten på mejlen</a></p>
 <br>
 <object class="pdf" data="./senaste.pdf" type="application/pdf">

@@ -1,0 +1,22 @@
+body{
+    position: relative;
+    color: white; 
+    background-color: #003374;
+    font-size:1.8em;
+    padding:2%;
+    min-height:90vh;
+}
+a{
+	color:inherit;
+	padding:1em;
+	border-color: #FFF0;
+	border-style: solid;
+}
+a:hover{
+	border-color: #FFFF;
+}
+
+.bak{
+padding: 0;
+border-style: unset;
+}

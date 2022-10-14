@@ -4,76 +4,49 @@
 <meta charset="UTF-8">
 <title>Sjösektionen Chalmers</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="tema.css" />
 <style>
-body{
-    position: relative;
-    color: white;
+.logotyp{ 
+	height:50vh;
+	width:100%;
 }
-
-.logotyp{
-    background: #003374;
-    height:50vh;
-    width:100%;
-
-}
-
-.context{ 
-    background-color: #003374;
-    font-size:25px;
-    padding:2%;
-    min-height:90vh;
-}
-
 .meny{
-    display: block;
-    text-align:center;
-    margin: 0 auto;
-    width: 50%;
+	display: block;
+	text-align:center;
+	width: 50%;
+	margin:auto;
 }
-
-.meny p{
- display: inline-block;
- text-align: center;
- border-color: #FFF0;
- border-style: solid;
- padding: 1.61803%;
+.meny p {
+	display: inline-block;
+	padding: 1.61803%;
 }
-
-.meny a{
-    color:white;
-    padding:1em;
-}
-
-.meny p:hover{
-    border-color: #FFFF;
+a{
+	padding:1em;
 }
 .rad{
-    display:inline-block;
+	display:inline-block;
 }
-.fot p{
-margin: 0 auto;
-width: 50%;
-font-size: 20;
-text-align: center;
+.fot{
+	text-align:center;
 }
 
-</style>
+</Style>
 </head>
 <body>
 <div class="context">
 <img class="logotyp" src="./Sjosektionenlogo.svg" alt="Sjösectionen chalmesrs loga">
-<p> <p>
-<div class="meny">
 
+<br>
+
+<div class="meny">
   <div class="rad">
-<p><a href="./flaskpost/">Flaskposten äta bajs är inte helt fel</a></p>
-<p><a href="./foreningar/">Föreningar</a></p>
+<a href="./flaskpost/"><p>Flaskposten</p></a>
+<a href="./foreningar/"><p>Föreningar</p></a>
   </div>
   <div class="rad">
-<p><a href="./dokument/">Dokument</a></p>
-<p><a href="./nysida4.html">Länkar</a></p>
+<a href="./dokument/"><p>Dokument</p></a>
+<a href="./nysida4"><p>Länkar</p></a>
   </div>
-  
 </div>
 
 <br>
