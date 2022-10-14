@@ -1,0 +1,2 @@
+excludera.txt
+iconer
